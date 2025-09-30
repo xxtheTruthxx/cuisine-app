@@ -47,22 +47,22 @@ The app will open in your browser.
 
 ## **🍲 Example Cuisines**
 
-### 🇺🇸 American Cuisine
+### 🍔 American Cuisine
 
 Diverse and multicultural – from Southern fried chicken to Californian health-inspired dishes.
 
-### 🇦🇪 Arabic Cuisine
+### 🧆 Arabic Cuisine
 
 Spice-rich and aromatic – hummus, falafel, kebabs, and baklava.
 
-### 🇫🇷 French Cuisine
+### 🥐 French Cuisine
 
 Elegant and refined – croissants, ratatouille, crème brûlée.
 
-### 🇵🇱 Polish Cuisine
+### 🥣 Polish Cuisine
 
 Hearty and traditional – pierogi, borscht, and bigos.
 
-### 🇺🇦 Ukrainian Cuisine
+### ❤ Ukrainian Cuisine
 
 Authentic and fresh – borscht, pierogi, and potato pancakes.
