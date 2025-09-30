@@ -11,7 +11,7 @@ Flavors of the Globe is an interactive Streamlit web app that lets you explore t
 - 📖 Two Views –
   - Introduction – Quick overview of the cuisine.
   - Read More – Dive deeper into history, traditions, and signature dishes.
-
+  - Link - Gotcha new information
 🎨 Clean UI – Built with Streamlit, styled for readability and immersion.
 
 

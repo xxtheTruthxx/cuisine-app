@@ -8,7 +8,7 @@ def load_data(filename: str) -> dict:
 
 def app():
     st.set_page_config(
-        page_title="")
+        page_title="Flavors of the Globe")
     st.header(body="Flavors of the Globe", help="Discover the tastes of the world in one place!", divider="gray")
     st.markdown("""
         <style>
@@ -29,7 +29,7 @@ def app():
         for c, j in enumerate(load_data("data.json").values(), 0):
             with st.container(border=True):
                 st.title(j.get("title"))
-                tab1, tab2 = st.tabs(["Introduction", "Read More"])
+                tab1, tab2, tab3 = st.tabs(["Introduction", "Read More", "Link"])
                 with tab1:
                     col1, col2 = st.columns(2)
                     with col1:
@@ -39,6 +39,8 @@ def app():
                         st.image(image=img["path"], caption=img["caption"].upper())
                 with tab2:
                     st.write(j.get("info"))
+                with tab3:
+                  st.link_button("Link", url=j["url"]) 
                             
 if __name__ == "__main__":
     app()
