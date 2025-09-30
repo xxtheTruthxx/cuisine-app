@@ -8,7 +8,7 @@ def load_data(filename: str) -> dict:
 
 def app():
     st.set_page_config(
-        page_title="")
+        page_title="Flavors of the Globe")
     st.header(body="Flavors of the Globe", help="Discover the tastes of the world in one place!", divider="gray")
     st.markdown("""
         <style>
