@@ -8,8 +8,8 @@ def load_data(filename: str) -> dict:
 
 def app():
     st.set_page_config(
-        page_title="Flavors of the Globe")
-    st.header(body="Flavors of the Globe", help="Discover the tastes of the world in one place!", divider="gray")
+        page_title="Global Taste Tour")
+    st.header(body="Global Taste Tour", help="Discover the tastes of the world in one place!", divider="gray")
     st.markdown("""
         <style>
             button p{
@@ -20,7 +20,7 @@ def app():
     with st.container(border=True):
         st.caption("""
                 <p style='font-weight: 600'>
-                  Flavors of the Globe are like magical gateways that take us on a journey through cultures and traditions.
+                  Global Taste Tour are like magical gateways that take us on a journey through cultures and traditions.
                   Discover with us the richness of culinary experiences hidden in every bite!
                 </p>
             """, unsafe_allow_html=True)
@@ -44,4 +44,5 @@ def app():
                             
 if __name__ == "__main__":
     app()
+
 
